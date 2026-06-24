@@ -1,0 +1,88 @@
+# Sales Data Analysis using Python
+
+## Project Overview
+
+This project analyzes company sales data to identify business trends, top-performing employees, department-wise performance, and profit distribution across cities.
+
+The analysis was performed using Python libraries such as Pandas, Matplotlib, and Seaborn.
+
+## Objectives
+
+* Analyze total sales and average profit.
+* Identify top-performing employees.
+* Compare department-wise sales performance.
+* Analyze city-wise profit distribution.
+* Visualize business data using charts.
+
+## Tools and Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* NumPy
+
+## Dataset Columns
+
+* Employee
+* Department
+* City
+* Sales
+* Profit
+
+## Analysis Performed
+
+### 1. Dataset Exploration
+
+* Displayed dataset information using:
+
+  * `head()`
+  * `info()`
+  * `describe()`
+
+### 2. Business Analysis
+
+* Calculated total sales.
+* Calculated average profit.
+* Identified employee with highest sales.
+* Found department-wise average sales.
+* Found city-wise total profit.
+
+### 3. Data Visualization
+
+The following visualizations were created:
+
+* Bar Chart: Average Sales by Department
+* Histogram: Sales Distribution
+* Heatmap: Correlation between Sales and Profit
+
+## Key Insights
+
+* The Sales department generated the highest average sales.
+* Rohan achieved the highest sales among all employees.
+* Pune generated the highest total profit.
+* Sales and Profit showed a strong positive correlation.
+
+## Project Structure
+
+```text
+sales-data-analysis/
+│
+├── sales_data.csv
+├── main.py
+├── bar_chart.png
+├── histogram.png
+├── heatmap.png
+└── README.md
+```
+
+## Future Improvements
+
+* Add more records for deeper analysis.
+* Create interactive dashboards using Power BI.
+* Perform advanced exploratory data analysis (EDA).
+
+## Author
+
+Mukesh Shinde
+Aspiring Data Analyst | Python | SQL | Excel | Power BI
