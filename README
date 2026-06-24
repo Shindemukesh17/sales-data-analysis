@@ -18,9 +18,9 @@ The analysis was performed using Python libraries such as Pandas, Matplotlib, an
 
 * Python
 * Pandas
+* NumPy
 * Matplotlib
 * Seaborn
-* NumPy
 
 ## Dataset Columns
 
@@ -34,17 +34,17 @@ The analysis was performed using Python libraries such as Pandas, Matplotlib, an
 
 ### 1. Dataset Exploration
 
-* Displayed dataset information using:
+The following functions were used to understand the dataset:
 
-  * `head()`
-  * `info()`
-  * `describe()`
+* `head()`
+* `info()`
+* `describe()`
 
 ### 2. Business Analysis
 
 * Calculated total sales.
 * Calculated average profit.
-* Identified employee with highest sales.
+* Identified the employee with the highest sales.
 * Found department-wise average sales.
 * Found city-wise total profit.
 
@@ -56,12 +56,27 @@ The following visualizations were created:
 * Histogram: Sales Distribution
 * Heatmap: Correlation between Sales and Profit
 
+## Visualizations
+
+### Average Sales by Department
+
+![Department Average Sales](Depart_avg.png)
+
+### Sales Distribution
+
+![Sales Distribution](Distribution.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](heatmap.png)
+
 ## Key Insights
 
 * The Sales department generated the highest average sales.
 * Rohan achieved the highest sales among all employees.
 * Pune generated the highest total profit.
 * Sales and Profit showed a strong positive correlation.
+* The Sales department outperformed other departments in terms of average sales.
 
 ## Project Structure
 
@@ -70,8 +85,8 @@ sales-data-analysis/
 │
 ├── sales_data.csv
 ├── main.py
-├── bar_chart.png
-├── histogram.png
+├── Depart_avg.png
+├── Distribution.png
 ├── heatmap.png
 └── README.md
 ```
@@ -93,7 +108,7 @@ cd sales-data-analysis
 ### 3. Install required libraries
 
 ```bash
-pip install pandas matplotlib seaborn numpy
+pip install pandas numpy matplotlib seaborn
 ```
 
 ### 4. Run the project
@@ -107,6 +122,7 @@ python main.py
 * Add more records for deeper analysis.
 * Create interactive dashboards using Power BI.
 * Perform advanced exploratory data analysis (EDA).
+* Add interactive visualizations.
 
 ## Author
 
