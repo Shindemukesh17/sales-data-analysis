@@ -76,6 +76,32 @@ sales-data-analysis/
 └── README.md
 ```
 
+## How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Shindemukesh17/sales-data-analysis.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd sales-data-analysis
+```
+
+### 3. Install required libraries
+
+```bash
+pip install pandas matplotlib seaborn numpy
+```
+
+### 4. Run the project
+
+```bash
+python main.py
+```
+
 ## Future Improvements
 
 * Add more records for deeper analysis.
@@ -84,5 +110,5 @@ sales-data-analysis/
 
 ## Author
 
-Mukesh Shinde
+**Mukesh Shinde**
 Aspiring Data Analyst | Python | SQL | Excel | Power BI
